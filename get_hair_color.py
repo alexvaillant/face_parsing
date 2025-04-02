@@ -80,7 +80,7 @@ def hair_color_classification(anon_type):
 
 
     new_column_data = {
-        "hair_color_test": hair_color_data
+        "hair_color": hair_color_data
     }
     
     helper.update_sist_df(sist_basis, new_column_data, anon_type)
