@@ -161,6 +161,7 @@ def inference(params: argparse.Namespace) -> None:
             continue
 
     logger.info(f"Processing complete. Results saved to {output_path}")
+    return output_path
 
 
 def parse_args() -> argparse.Namespace:
